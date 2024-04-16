@@ -1,0 +1,39 @@
+{
+  "medicalSymptoms": [
+    {
+      "id": "1",
+      "symptom": "Fever",
+      "labRequirement": "Complete Blood Count (CBC)",
+      "diagnosis": "Viral Infection",
+      "treatment": "Antipyretics, rest, and hydration"
+    },
+    {
+      "id": "2",
+      "symptom": "Cough",
+      "labRequirement": "Chest X-ray",
+      "diagnosis": "Bronchitis",
+      "treatment": "Cough suppressants, antibiotics if bacterial"
+    },
+    {
+      "id": "3",
+      "symptom": "Headache",
+      "labRequirement": "MRI",
+      "diagnosis": "Migraine",
+      "treatment": "Pain relievers, lifestyle changes, preventive medications"
+    },
+    {
+      "id": "4",
+      "symptom": "Abdominal Pain",
+      "labRequirement": "Ultrasound",
+      "diagnosis": "Appendicitis",
+      "treatment": "Appendectomy (surgical removal of appendix)"
+    },
+    {
+      "id": "ffd4",
+      "symptom": "Fever",
+      "labRequirement": "Complete Blood Count (CBC)",
+      "diagnosis": "Viral Infection",
+      "treatment": "Antipyretics and plenty of fluids"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedCare App</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<header>
+<h1>MedCare App</h1>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Clinic</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<!-- Search button -->
+<div>
+<input type="text" id="searchInput" placeholder="Search for symptom...">
+<button onclick="searchSymptoms(searchInput.value.trim())">Search</button>
+</div>
+</header>
+
+<main>
+<div>
+<h2 id="formHeading">Add New Symptom</h2>
+<form id="symptomForm">
+<input type="hidden" id="symptomId" value="">
+<input type="text" id="symptomName" placeholder="Symptom Name" required>
+<input type="text" id="labWork" placeholder="Lab Work" required>
+<input type="text" id="diagnosis" placeholder="Diagosis" required>
+<input type="text" id="treatment" placeholder="Treatment" required>
+<button type="submit" id="submitBtn">Add Symptom</button>
+</form>
+</div>
+
+<section id="symptom">
+<!-- Product listings will be dynamically populated here -->
+</section>
+</main>
+
+<footer>
+<p>contact info +254712671397</p>
+<p>insta @ medCare</p>
+<p>twitter @medCare</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+
+</html>
